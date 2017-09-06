@@ -1,0 +1,54 @@
+.container{
+    text-align: center;
+    margin-top: 30px;
+    
+    
+}
+h2,h3,h4{
+    color: white;
+    padding:10px;
+    margin:0px;
+    
+    
+}
+h2{
+    font-size:25px;
+}
+form{
+    text-align: center;
+    padding:40px;
+}
+h1{
+    color: white;
+    padding:10px;
+    margin:0px;
+    font-size:35px;
+    
+}
+input[type=text]{
+    width:200px;
+    border: 2x solid #aaa;
+    border-radius: 10px 0 0 10px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    //box-sizing:border-box;
+    transition: .3s;
+}
+
+input[type=text]:focus{
+    border-color:blueviolet;
+    box-shadow: 0 0 8px 0 blueviolet;
+}
+button{
+    width:100px;
+    background: palevioletred;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    border-radius: 0 10px 10px 0;
+    border: 2x solid #aaa;
+    
+    
+}

@@ -1,0 +1,55 @@
+form{
+    padding-top:50px;
+    text-align: center;
+}
+.day{
+    padding-left:80px;
+    margin:20px;
+    padding-top:50px;
+    display:inline-block;
+    
+}
+
+h3{
+   display:inline;
+   padding:5px;
+   
+}
+.day,.icon{
+    padding-left:30px;
+}
+.container{
+   padding:auto;
+margin:auto;
+text-align:center;
+}
+
+input[type=text]{
+    width:200px;
+    border: 2x solid #aaa;
+    border-radius: 10px 0 0 10px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition: .3s;
+}
+
+input[type=text]:focus{
+    border-color:dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+button{
+    width:100px;
+    background: palevioletred;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    border-radius: 0 10px 10px 0;
+    border: 2x solid #aaa;
+    
+    
+}
+
+
